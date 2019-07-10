@@ -4,7 +4,9 @@ class HomePage extends Component {
   render() {
     return (
       <div>
-        Home page
+        <p>
+          Hi! My name is Clifton and this is my page.
+        </p>
       </div>
     )
   }
