@@ -13,7 +13,7 @@ header {
 }
 
 .navButton {
-  float: right;
+  float: left;
 }
 
 footer {
@@ -22,4 +22,17 @@ footer {
   height: 50px;
   background-color: black;
   color: white;
+}
+
+.font {
+  color: blue
+}
+
+.devicon-git-plain {
+  max-width: 2em;
+}
+ 
+/* if you want to change the original color */
+.devicon-git-plain path {
+  fill: #4691f6;
 }
