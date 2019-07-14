@@ -1,6 +1,6 @@
 import React from 'react';
 
-const techStack = () => {
+const portfolio = () => {
   return (
     <div>
        <ul>
@@ -12,4 +12,4 @@ const techStack = () => {
   )
 }
 
-export dafault techStack;
+export dafault portfolio;
