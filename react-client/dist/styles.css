@@ -8,26 +8,135 @@ header {
 
 #headerButtons {
   list-style-type: none;
-  margin: 0;
+  margin: 0px;
   padding: 0;
 }
 
 .navButton {
   float: right;
-  /* font-size: 15pt; */
+  font-size: 15pt;
+  padding: 15px;
+  color: aqua;
 }
 
 footer {
   display: block;
   width: 100%;
-  height: 50px;
-  background-color: black;
-  color: white;
-  position: bottom;
+  height: 100px;
+  color:black;
+  position: absolute;
+  bottom: 0;
+}
+
+.footer-content {
+  font-size: 15pt;
 }
 
 .font {
-  color: blue
+  color: black;
+  size: 40px
+}
+
+p {
+  font-size: 15pt
+}
+
+.skills {
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+h4 {
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.wrapper {
+  display: table;
+  width: 700px;
+  text-align: center
+}
+
+
+.backend {
+  margin: 25px;
+  display: table-cell;
+}
+
+.frontend  {
+  display: table-cell;
+
+}
+
+.other {
+  display: table-cell;
+}
+
+li a:hover {
+  color: aquamarine
+}
+
+.form, .message, .email, .firstname {
+  display: flex;
+  padding: 4vmin;
+  margin: 0 2 vmin;
+  text-align: left;
+  justify-content:center;
+  align-content:center;
+  flex-direction:column;
+  width: 65%;
+  /* border-style: solid; */
+  border-width: 1px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%
+}
+
+.icons {
+  text-align: center;
+  bottom: 0;
+
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  padding: 20px;
+  margin: 20px
+}
+
+/* Twitter */
+.fa-github {
+  background: black;
+  color: white;
+  padding: 20px;
+  margin: 20px
+}
+
+.fa-linkedin {
+  background: blue;
+  color: white;
+  padding: 20px;
+  margin: 20px
+}
+
+.fa-envelope {
+  background: white;
+  color: black;
+  padding: 20px;
+  margin: 20px
 }
 
 .devicon-git-plain {

@@ -6,6 +6,7 @@ import NavBar from './headerComponent/navBar.js';
 import Footer from './footerComponent/footer.js';
 import About from './pages/aboutMe.js'
 import Contact from './pages/contact.js'
+import Portfolio from './pages/portfolio.js'
 
 
 class App extends Component {
@@ -14,15 +15,14 @@ class App extends Component {
       <Router>
         <div>
           <NavBar />
-            <Route name="home" exact path="/" component={HomePage} />
+            <Route name="home"  exact path="/" component={HomePage} />
             <Route name="about" exact path="/about" component={About} />
             <Route name="about" exact path="/contact" component={Contact} />
-            <Route name="about" exact path="/portfolio" component={Contact} />
-          
+            <Route name="portfolio" exact path="/portfolio" component={Portfolio} />
           <Footer />
-
         </div>
       </Router>
+   
     )
   }
 }

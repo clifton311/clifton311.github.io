@@ -5,7 +5,7 @@ class HomePage extends Component {
   render() {
     return (
       <div>
-        <img src='' alt="profile_pic"></img>
+        <img src="/pages/photos/Photo.png" alt="profile_pic"></img>
         <p>
           Welcome to my page! 
         </p>
