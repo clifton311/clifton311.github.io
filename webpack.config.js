@@ -16,12 +16,15 @@ module.exports = {
         loader: 'style-loader!css-loader'
       },
       {
-        test: /\.png$/,
-        loader: 'url-loader?limit=100000&minetype=image/png'
-      },
-      {
-        test: /\.jpg/,
-        loader: 'file-loader'
+        test: /\.(png|svg|jpg|gif)$/,
+        use: [
+          {
+            loader: 'url-loader',
+            options: {
+              limit: 8192,
+            },
+          },
+        ],
       },
       {
         test : /\.jsx?/,

@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
+import photo from './photos/Photo.png'
 
 
 class HomePage extends Component {
   render() {
     return (
       <div>
-        <img src="/pages/photos/Photo.png" alt="profile_pic"></img>
-        <p>
-          Welcome to my page! 
+        <img src={photo} className='thumbNail'alt="profile_pic"></img>
+        <p className='homepage'> Hi! I'm Clifton!</p>
+        <p className="homepage">
+          I am a Developer...Travel Enthusiatist...Adventurer
         </p>
       </div>
     )

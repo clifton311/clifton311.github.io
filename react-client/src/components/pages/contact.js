@@ -34,23 +34,22 @@ class Contact extends React.Component {
           <h2>
             Thank for your visiting! Please leave a message or contact me via the links below!
           </h2>
-          <div className='form'>
 
-            <form >
-              <label className="firstname">
+          <div className='contactForm'>
+            <form className="ui form">
+              <label>
                 Name: <input type="text" placeholder="Name..." name="first" style={{width:"39vmin", height: "4vmin"}}/> 
               </label>
               {/* <label>
                 Last Name: <input type="text" name="last" style={{width:"39vmin", height: "4vmin"}}/> 
               </label> */}
-              <label className='email'>
-                Email: <input type="text" name="email" placeholder="email..." style={{width:"39vmin", height: "4vmin"}}/>
+              <label >
+                Email: <input type="text" name="email" placeholder="Enter Email" style={{width:"39vmin", height: "4vmin"}}/>
               </label>
-              <label className="message">
-                Leave a message: <textarea type="textarea" name="message" placeholder="Leave a message..." />
+              <label >
+                Leave a message: <textarea type="textarea" name="message" placeholder="Type a message..." rows="6" cols="40" />
               </label>
-
-              <button onClick={this.handleClick}>Send</button>
+              <button className='ui button'onClick={this.handleClick}>Send</button>
               <button onClick={this.handleClearForm}>Clear Form</button>
             </form>
           </div>
