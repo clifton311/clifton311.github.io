@@ -31,11 +31,14 @@ class Contact extends React.Component {
   render() {
     return (
         <div>
-          <h2>
-            Thank for your visiting! Please leave a message or contact me via the links below!
+          <h2 style={{color:"red"}}>
+            Thank for your visiting! 
           </h2>
+          <h3>
+            Please leave a message or contact me via the links below!
+          </h3>
 
-          <div className='contactForm'>
+          <div className='ui form'>
             <form className="ui form">
               <label>
                 Name: <input type="text" placeholder="Name..." name="first" style={{width:"39vmin", height: "4vmin"}}/> 
