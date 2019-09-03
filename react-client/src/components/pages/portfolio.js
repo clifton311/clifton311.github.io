@@ -4,8 +4,8 @@ import FEC from './photos/FEC.png';
 const portfolio = () => {
   return (
     <div>
-       <h4>Here are some of the fullstack projects I have been working on!</h4>
-       
+       <h2>Here are some of the fullstack projects I have been working on!</h2>
+
        <div className="fec">
           <p>
             A full stack movie reviews application. For this project, I designed a back-end artitecture for a micro service

@@ -9,7 +9,7 @@ class HomePage extends Component {
       <div>
         <div className='homepage'>
           <p style={{font:'55pt'}}> 
-            Hi! I'm Clifton! <br></br> Welcome to my Page!
+            Hi! I'm Clifton! <br></br> 
           </p>
           <p > I am a Developer, Travel Enthusiatist & Adventurer </p>
           <br></br>
@@ -17,10 +17,11 @@ class HomePage extends Component {
 
         <div className='row'>
           <div className='column'>
-            <img src={photo} className='airplane'alt="profile_pic" style={{width:'100%'}}></img>
+          <img src={developer} className='developer'alt="profile_pic" style={{width:'100%' , height:"390px"}}></img>
            </div>
           <div className='column'>
-            <img src={developer} className='developer'alt="profile_pic" style={{width:'100%' , height:"390px"}}></img>
+        
+            <img src={photo} className='airplane'alt="profile_pic" style={{width:'100%'}}></img>
           </div>
         </div>
 
