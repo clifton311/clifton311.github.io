@@ -6,52 +6,55 @@ const About = () => {
     <div>
       <div className='about-me'>
         <div className='row-aboutme'>
-          <div className="column-aboutme">
-            <div className="photo"> 
-              <img src={photo} alt="profile" style={{height: "400px"}}/>
-            </div> 
+          <div className="column-aboutme"> 
+              <img src={photo} alt="profile" className="photo"/>
           </div>
           <div className="column-aboutme">
-            <p >
-              My name is Clifton Ho and I am passionate about developing readable code and always have an insatiable hungry to grow my engineering
-              and values.
-          
+            <p className="text">
+              I am a full-stack developer and I am passionate about developing readable code and always have an insatiable hungry to grow my engineering
+              and values. My passion for coding entails to the ability to use my problem solving ability and to explore my creativity to enhance and provide solutions for others.
+              <br />
+              <br />
               When I am not working on strengthening my coding skills, you can catch my traveling to destinations all over the world 
-              and exploring nature via hikes or bikes.
+              and exploring nature via hikes. I also enjoy snowboarding in the mountains,  watching my favorite sportteams and playing golf.
             </p>
           </div>
         </div>  
       </div>
+
       <br></br>
+      
       <div className="technical">
-        <h4 className="otherTools">Technical Skills:</h4>
+        <div className="otherTools">Technical Skills:</div>
          <div className="frontend">
           <div className='otherTools'>Client Side:</div>
             <br></br>
-            <ul>
+            <ul className="devicon">
               <li><i className="devicon-javascript-plain "> Javascript</i> </li>
               <li><i class="devicon-react-original colored"> React</i> </li>
               <li><i class="devicon-html5-plain-wordmark colored"> HTML5</i> </li>
               <li><i class="devicon-css3-plain-wordmark colored"> CSS</i></li>
+              <li><i class="devicon-css3-plain-wordmark colored"> CSS</i></li>
+              <li><i class="devicon-mocha-plain">Mocha</i></li>
             </ul>
         </div>
 
         <div className="backend">
           <div className='otherTools'>Server Side:</div>
           <br></br>
-          <ul>
-            <li><i class="devicon-mysql-plain-wordmark colored"> MySQL</i></li>
+          <ul className="devicon">
             <li><i class="devicon-nodejs-plain-wordmark"> Node</i></li>
+            <li><i class="devicon-express-original-wordmark colored"> Express</i></li>
+            <li><i class="devicon-mysql-plain-wordmark colored"> MySQL</i></li>
             <li><i class="devicon-postgresql-plain-wordmark colored"> Postgresql</i></li>
             <li><i class="devicon-mongodb-plain-wordmark colored"> MongoDB</i> </li>
-            <li><i class="devicon-express-original-wordmark colored"> Express</i></li>
           </ul>
         </div>
 
         <div className="other">
           <div className='otherTools'>Other Tools:</div>
           <br></br>
-          <ul>
+          <ul className="devicon">
             <li><i class="devicon-nginx-original colored"> NGINX</i> </li>
             <li><i class="devicon-webpack-plain-wordmark colored"> Webpack</i></li>
             <li><i class="devicon-redis-plain-wordmark colored"> Redis</i></li>

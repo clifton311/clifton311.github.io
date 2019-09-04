@@ -15,13 +15,12 @@ class HomePage extends Component {
           <br></br>
         </div>
 
-        <div className='row'>
+        <div className='homepage-row'>
+          <div className='homepage-column'>
+            <img src={developer} className='developer'alt="profile_pic" style={{width:'100%' , height:"390px"}}></img>
+          </div>
           <div className='column'>
-          <img src={developer} className='developer'alt="profile_pic" style={{width:'100%' , height:"390px"}}></img>
-           </div>
-          <div className='column'>
-        
-            <img src={photo} className='airplane'alt="profile_pic" style={{width:'100%'}}></img>
+            <img src={photo} className='airplane'alt="profile_pic" style={{width:'80%', height: "390px"}}></img>
           </div>
         </div>
 
