@@ -7,7 +7,19 @@ import Footer from './footerComponent/footer.js';
 import About from './pages/aboutMe.js'
 import Contact from './pages/contact.js'
 import Portfolio from './pages/portfolio.js'
+import Particles from 'react-particles-js';
 
+const particles = {
+    particles: {
+      number: {
+        value: 150,
+        density: {
+          enable: true,
+          value_area: 800
+        }
+      }
+    }
+}
 
 class App extends Component {
   render() {
@@ -20,9 +32,9 @@ class App extends Component {
             <Route name="about" exact path="/contact" component={Contact} />
             <Route name="portfolio" exact path="/portfolio" component={Portfolio} />
           <Footer />
+         <Particles params={particles} />
         </div>
       </Router>
-   
     )
   }
 }

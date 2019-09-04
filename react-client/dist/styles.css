@@ -6,6 +6,10 @@ header {
   text-align: center
 }
 
+body {
+  background-color: lightblue
+}
+
 .portfolioHeader {
   text-align: center;
   padding: 10px;
@@ -38,9 +42,8 @@ body {
 
 footer {
   position: relative;
-  bottom: 0%;
+  bottom: -150px;
   padding: 1px;
-  background-color: #efefef;
   text-align: center;
 }
 
@@ -111,8 +114,7 @@ input[type=text], input[type=textarea] {
 .text {
   position: relative;
   font-family: 'Courier New', Courier, monospace;
- 
-  right: 20%
+  right: 20%;
 }
 
 .photo {
