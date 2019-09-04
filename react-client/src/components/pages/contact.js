@@ -95,7 +95,6 @@ class Contact extends React.Component {
             </form>
           </div>
 
-
           <div className= 'icons'>
             <a href="https://www.facebook.com" class="fa fa-facebook"></a>
             <a href="https://www.github.com/clifton311" class="fa fa-github"></a>

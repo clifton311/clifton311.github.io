@@ -1,8 +1,15 @@
 header {
   display: block;
   width: 100%;
-  height: 50px;
+  height: 100px;
   color: white;
+  text-align: center
+}
+
+.portfolioHeader {
+  text-align: center;
+  padding: 10px;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .headerButtons {
@@ -30,15 +37,12 @@ body {
 }
 
 footer {
-  position: block;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  position: relative;
+  bottom: 0%;
   padding: 1px;
   background-color: #efefef;
   text-align: center;
 }
-
 
 .font {
   color: black;
@@ -66,8 +70,6 @@ h2 {
   margin: 100px;
   justify-items: center
 }
-
-
 
 .backend {
   display: table-cell;
@@ -108,8 +110,9 @@ input[type=text], input[type=textarea] {
 
 .text {
   position: relative;
-
-  font-family: 'Courier New', Courier, monospace
+  font-family: 'Courier New', Courier, monospace;
+ 
+  right: 20%
 }
 
 .photo {
@@ -123,10 +126,10 @@ input[type=text], input[type=textarea] {
 
 /* Set a style for the submit button */
 button {
-  background-color: #4CAF50;
+  background-color: gray;
   color: white;
   padding: 8px 10px;
-  border: none;
+  border: black;
   cursor: pointer;
   margin: 15%;
 }
@@ -189,14 +192,15 @@ li {
   height: 400px;
   object-fit: contain;
   border-radius: 10px;
-  align-content: center;
-  border: solid
+  align-content: right;
+  border: solid;
+  grid-area: left;
 }
 
 
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 900px 900px;
   grid-template-rows: repeat(3, 1fr);
   grid-column-gap: 10px;
   grid-row-gap: 10px;
@@ -206,8 +210,8 @@ li {
 .grid-item {
   padding: 20px;
   text-align: center;
-  /* border: 1px solid; */
-  justify-content: center
+  justify-content: center;
+  font-family: 'Courier New', Courier, monospace;
   
 }
 
