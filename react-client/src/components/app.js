@@ -21,8 +21,16 @@ const particles = {
     }
 }
 
+
+
 class App extends Component {
+
   render() {
+
+   particlesJS.load('particles-js','/particles.json', function() {
+      console.log('callback - particles.js config loaded');
+    });
+
     return (
       <Router>
         <div>
@@ -31,7 +39,6 @@ class App extends Component {
             <Route name="about" exact path="/about" component={About} />
             <Route name="about" exact path="/contact" component={Contact} />
             <Route name="portfolio" exact path="/portfolio" component={Portfolio} />
-         <Particles params={particles} />
         </div>
       </Router>
     )
