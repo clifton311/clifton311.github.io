@@ -15,6 +15,7 @@ class HomePage extends Component {
           <br></br>
         </div>
 
+
         <div className='homepage-row'>
           <div className='homepage-column'>
             <img src={developer} className='developer'alt="profile_pic" style={{width:'100%' , height:"390px"}}></img>
