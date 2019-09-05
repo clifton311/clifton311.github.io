@@ -57,11 +57,11 @@ class Contact extends React.Component {
               Thank for your visiting! 
             </h2>
             <h3>
-              Please leave a message or contact me via the links below!
+              Feel free to contact me via the links below!
             </h3>
           </div>
 
-          <div className='contact-form'>
+          {/* <div className='contact-form'>
             <form className="ui form" onSubmit= {this.handleSubmit}>
               <label>
                 Name: <input type="text"
@@ -93,15 +93,17 @@ class Contact extends React.Component {
                   <button onClick={this.handleClearForm}>Clear Form</button>
                 </div>
             </form>
-          </div>
+          </div> */}
 
           <div className= 'icons'>
             <a href="https://www.facebook.com" class="fa fa-facebook"></a>
             <a href="https://www.github.com/clifton311" class="fa fa-github"></a>
             <a href="https://www.linkedin.com/in/clifton-ho" class="fa fa-linkedin"></a>
-            <a href="mailto:cliftono311@gmail.com" class="fa fa-envelope"></a>
+            <a href="mailto:cliftonho311@gmail.com" class="fa fa-envelope"></a>
           </div>
+          <div className="footer">Created By Clifton Ho @ 2019</div>
         </div>
+
       )
   }
 }

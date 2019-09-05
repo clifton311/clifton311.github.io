@@ -12,11 +12,11 @@ const About = () => {
           <div className="column-aboutme">
             <p className="text">
               I am a full-stack developer and I am passionate about developing readable code and always have an insatiable hungry to grow my engineering
-              and values. My passion for coding entails to the ability to use my problem solving ability and to explore my creativity to enhance and provide solutions for others.
+              values. My passion for coding entails to the ability to use my problem solving ability and to explore my creativity to enhance and provide solutions for others.
               <br />
               <br />
-              When I am not working on strengthening my coding skills, you can catch my traveling to destinations all over the world 
-              and exploring nature via hikes. I also enjoy snowboarding in the mountains,  watching my favorite sportteams and playing golf.
+              When I am not working on honing my coding skills, you can catch my traveling to destinations all over the world 
+              and exploring nature via hikes. I also enjoy snowboarding in the mountains,  watching my favorite sports teams and playing golf.
             </p>
           </div>
         </div>  

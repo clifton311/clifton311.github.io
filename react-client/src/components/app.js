@@ -31,7 +31,6 @@ class App extends Component {
             <Route name="about" exact path="/about" component={About} />
             <Route name="about" exact path="/contact" component={Contact} />
             <Route name="portfolio" exact path="/portfolio" component={Portfolio} />
-          <Footer />
          <Particles params={particles} />
         </div>
       </Router>
