@@ -34,7 +34,6 @@ const About = () => {
               <li><i class="devicon-react-original colored"> React</i> </li>
               <li><i class="devicon-html5-plain-wordmark colored"> HTML5</i> </li>
               <li><i class="devicon-css3-plain-wordmark colored"> CSS</i></li>
-              <li><i class="devicon-css3-plain-wordmark colored"> CSS</i></li>
               <li><i class="devicon-mocha-plain">Mocha</i></li>
             </ul>
         </div>
