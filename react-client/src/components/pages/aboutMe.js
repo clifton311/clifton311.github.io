@@ -4,22 +4,22 @@ import photo from './photos/Photo.png'
 const About = () => {
   return (
     <div>
-      <div className='about-me'>
-        <div className='row-aboutme'>
-          <div className="column-aboutme"> 
+      <div className='about-me-grid'>
+          <div className="aboutme-grid-item-photo"> 
               <img src={photo} alt="profile" className="photo"/>
           </div>
-          <div className="column-aboutme">
-            <p className="text">
+          <div className="aboutme-grid-item">
+            <div className="text">
+              <span> <strong>About Myself:</strong> </span> <br></br>
               I am a full-stack developer and I am passionate about developing readable code and always have an insatiable hungry to grow my engineering
               values. My passion for coding entails to the ability to use my problem solving ability and to explore my creativity to enhance and provide solutions for others.
               <br />
               <br />
               When I am not working on honing my coding skills, you can catch my traveling to destinations all over the world 
               and exploring nature via hikes. I also enjoy snowboarding in the mountains,  watching my favorite sports teams and playing golf.
-            </p>
+              </div>
           </div>
-        </div>  
+    
       </div>
 
       <br></br>

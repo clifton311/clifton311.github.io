@@ -1,7 +1,7 @@
 header {
   display: block;
   width: 100%;
-  height: 100px;
+  height: 75px;
   color: white;
   text-align: center
 }
@@ -21,12 +21,12 @@ header {
 .navButton {
   float: right;
   font-size: 15pt;
-  padding: 15px;
-  color: black
+  padding: 20px;
+  color: blueviolet
 }
 
 body {
-  background-color: #4CAF50
+  background-color: rgb(56, 97, 57)
 }
 
 .homepage {
@@ -107,20 +107,7 @@ input[type=text], input[type=textarea] {
   background: #f1f1f1;
 }
 
-.text {
-  position: relative;
-  font-family: 'Courier New', Courier, monospace;
-  right: 20%;
-}
 
-.photo {
-  position: relative;
-  height: 490px;
-  object-fit: contain;
-  width: 600px;
-  border-radius: 10px;
-  left: 250px;
-}
 
 /* Set a style for the submit button */
 button {
@@ -172,45 +159,75 @@ li {
 
 }
 
-.row-aboutme {
-  display: flex;
-  justify-content: center;
+.about-me-grid {
+  display: grid;
+  grid-template-columns: repeat(2,2fr);
+  grid-template-rows: auto;
+  grid-column-gap: 15px;
+ 
 }
 
-.column-aboutme {
-  float: left;
-  width: 50%;
-  padding: 1px;
-  margin-top: 15px
+.aboutme-grid-item {
+  display: grid;
+  justify-items: center;
+  padding-right: 5%
+}
+
+.aboutme-grid-item-photo {
+  display: grid;
+  justify-items:  right;
+  padding-right: 10%
+ 
+}
+
+.photo {
+  width: 400px;
+  border-radius: 10%;
+  height: auto;
+  padding-top: 5%;
+}
+
+.text {
+  align-self: center;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: left;
+  font-size: 18pt
+
 }
 
  img.fec-image {
   display: grid;
-  width: 70%;
+  width: 50%;
   height: 400px;
   object-fit: contain;
   border-radius: 10px;
   align-content: right;
-  border: solid;
+  border:1px solid;
   grid-area: left;
 }
 
 
 .grid-container {
   display: grid;
-  grid-template-columns: 900px 900px;
+  grid-template-columns: 500px 500px;
   grid-template-rows: repeat(3, 1fr);
   grid-column-gap: 10px;
   grid-row-gap: 10px;
-  
+  justify-content: center;
 }
 
 .grid-item {
   padding: 20px;
-  text-align: center;
-  justify-content: center;
+  text-align: left;
+  justify-items: start;
   font-family: 'Courier New', Courier, monospace;
-  
+ 
+  place-self: center
+}
+
+.github {
+  justify-items: center;
+  text-align: center;
 }
 
 .thank {
