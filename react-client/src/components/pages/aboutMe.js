@@ -12,11 +12,11 @@ const About = () => {
             <div className="text">
               <span> <strong>About Myself:</strong> </span> <br></br>
               I am a full-stack developer and I am passionate about developing readable code and always have an insatiable hungry to grow my engineering
-              values. My passion for coding entails to the ability to use my problem solving ability and to explore my creativity to enhance and provide solutions for others.
+              values. My passion for coding entails the ability to use my problem solving skills and to explore my creativity to enhance and provide solutions for others.
               <br />
               <br />
               When I am not working on honing my coding skills, you can catch my traveling to destinations all over the world 
-              and exploring nature via hikes. I also enjoy snowboarding in the mountains,  watching my favorite sports teams and playing golf.
+              and exploring nature. I also enjoy snowboarding in the mountains,  watching my favorite sports teams and playing golf.
               </div>
           </div>
     
@@ -34,7 +34,6 @@ const About = () => {
               <li><i class="devicon-react-original colored"> React</i> </li>
               <li><i class="devicon-html5-plain-wordmark colored"> HTML5</i> </li>
               <li><i class="devicon-css3-plain-wordmark colored"> CSS</i></li>
-              <li><i class="devicon-mocha-plain">Mocha</i></li>
             </ul>
         </div>
 
@@ -60,6 +59,7 @@ const About = () => {
             <li><i class="devicon-github-plain-wordmark colored"> GitHub</i> </li>
             <li><i class="devicon-docker-plain-wordmark colored"> Docker</i></li>
             <li><i class="devicon-amazonwebservices-plain-wordmark "> AWS</i></li>
+            <li><i class="devicon-mocha-plain">Mocha</i></li>
           </ul>
         </div>
       </div>

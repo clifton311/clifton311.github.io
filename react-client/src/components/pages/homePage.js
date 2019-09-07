@@ -8,7 +8,7 @@ class HomePage extends Component {
     return (
       <div>
         <div className='homepage'>
-          <p style={{font:'55pt'}}> 
+          <p > 
             Hi! I'm Clifton! <br></br> 
           </p>
           <p > I am a Developer, Travel Enthusiatist & Adventurer </p>
@@ -18,10 +18,10 @@ class HomePage extends Component {
 
         <div className='flex-container'>
           <div className='homepage-flex-item'>
-            <img src={developer} className='developer'alt="profile_pic" style={{width:"500px", height:"400px"}}></img>
+            <img src={developer} className='developer'alt="profile_pic" style={{width:"550px", height:"400px"}}></img>
           </div>
           <div className='homepage-flex-item'>
-            <img src={photo} className='airplane'alt="profile_pic" style={{width:"500px", height:"400px"}} ></img>
+            <img src={photo} className='airplane'alt="profile_pic" style={{width:"550px", height:"400px"}} ></img>
           </div>
 
         </div>
