@@ -16,13 +16,14 @@ class HomePage extends Component {
         </div>
 
 
-        <div className='homepage-row'>
-          <div className='homepage-column'>
-            <img src={developer} className='developer'alt="profile_pic" style={{width:'100%' , height:"390px"}}></img>
+        <div className='flex-container'>
+          <div className='homepage-flex-item'>
+            <img src={developer} className='developer'alt="profile_pic" style={{width:"500px", height:"400px"}}></img>
           </div>
-          <div className='column'>
-            <img src={photo} className='airplane'alt="profile_pic" style={{width:'80%', height: "390px"}}></img>
+          <div className='homepage-flex-item'>
+            <img src={photo} className='airplane'alt="profile_pic" style={{width:"500px", height:"400px"}} ></img>
           </div>
+
         </div>
 
       </div>

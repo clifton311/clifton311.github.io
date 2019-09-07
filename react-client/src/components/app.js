@@ -9,18 +9,6 @@ import Contact from './pages/contact.js'
 import Portfolio from './pages/portfolio.js'
 import Particles from 'react-particles-js';
 
-const particles = {
-    particles: {
-      number: {
-        value: 150,
-        density: {
-          enable: true,
-          value_area: 800
-        }
-      }
-    }
-}
-
 
 
 class App extends Component {

@@ -4,6 +4,7 @@ header {
   height: 75px;
   color: white;
   text-align: center
+  
 }
 
 .portfolioHeader {
@@ -16,24 +17,23 @@ header {
   list-style-type: none;
   margin: 0px;
   padding: 1px;
+  color: #000;
 }
 
 .navButton {
   float: right;
   font-size: 15pt;
-  padding: 20px;
-  color: blueviolet
+  padding: 10px;
+  
 }
 
-body {
-  background-color: rgb(56, 97, 57)
-}
+
 
 .homepage {
-  font-size: 55pt;
+  font-size: 12pt;
   text-align: center;
-  margin: 25pt;
-  font-family: 'Courier New', Courier, monospace
+  font-family: 'Courier New', Courier, monospace;
+ 
 }
 
 .footer {
@@ -86,8 +86,12 @@ h2 {
   display: table-cell;
 }
 
+li{
+  color: #000
+}
+
 li a:hover {
-  color: aquamarine
+  color: grey;
 }
 
 .container {
@@ -106,7 +110,6 @@ input[type=text], input[type=textarea] {
   border: none;
   background: #f1f1f1;
 }
-
 
 
 /* Set a style for the submit button */
@@ -147,16 +150,10 @@ li {
   padding: 4%
 } 
 
-.homepage-row {
+.flex-container {
   display: flex;
-  justify-content: center;
-}
-
-.homepage-column {
-  float: left;
-  width: 40%;
-  padding-right: 20px
-
+  justify-content: space-evenly;
+  align-items: baseline;
 }
 
 .about-me-grid {
@@ -175,8 +172,9 @@ li {
 
 .aboutme-grid-item-photo {
   display: grid;
-  justify-items:  right;
-  padding-right: 10%
+  justify-items: right;
+  padding-right: 10%;
+  height: auto
  
 }
 
@@ -195,15 +193,13 @@ li {
 
 }
 
- img.fec-image {
-  display: grid;
-  width: 50%;
+ .fec-image {
+  /* width: 50%;
   height: 400px;
-  object-fit: contain;
   border-radius: 10px;
   align-content: right;
-  border:1px solid;
-  grid-area: left;
+  border:1px solid; */
+
 }
 
 
@@ -211,7 +207,7 @@ li {
   display: grid;
   grid-template-columns: 500px 500px;
   grid-template-rows: repeat(3, 1fr);
-  grid-column-gap: 10px;
+  grid-column-gap: 0px;
   grid-row-gap: 10px;
   justify-content: center;
 }
@@ -221,8 +217,14 @@ li {
   text-align: left;
   justify-items: start;
   font-family: 'Courier New', Courier, monospace;
- 
   place-self: center
+}
+
+.grid-item-photo {
+  width: 400px;
+  border-radius: 10%;
+  height: auto;
+  padding-top: 5%;
 }
 
 .github {
