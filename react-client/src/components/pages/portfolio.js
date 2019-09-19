@@ -39,7 +39,7 @@ const portfolio = () => {
               Full stack recipe finder application built with React, React-Router and incorporated OAuth via Passport.JS with a MySQL backend.
               <br />
               <div className="github">
-                <a href="https://github.com/clifton311/hrla-mvp-starter" target="_blank" >Github</a>
+                <a href="https://github.com/clifton311/recipes" target="_blank" >Github</a>
               </div>
             </p>
       </div>
