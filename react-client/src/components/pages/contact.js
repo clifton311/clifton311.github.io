@@ -61,40 +61,6 @@ class Contact extends React.Component {
             </h3>
           </div>
 
-          {/* <div className='contact-form'>
-            <form className="ui form" onSubmit= {this.handleSubmit}>
-              <label>
-                Name: <input type="text"
-                             placeholder="Name..." 
-                             name="first" 
-                             onChange={this.handleFormChange} 
-                             style={{width:"39vmin", height: "4vmin"}}
-                      /> 
-              </label>
-          
-              <label >
-                Email: <input type="text" 
-                              name="email" 
-                              placeholder="Enter Email" 
-                              onChange={this.handleFormChange} 
-                              style={{width:"39vmin", height: "4vmin"}}
-                        />
-              </label>
-              <label >
-                Leave a message: <textarea type="textarea"  
-                                  onChange={this.handleFormChange} 
-                                  name="message" 
-                                  placeholder="Type a message..." rows="6" cols="40" 
-                                  />
-              </label>
-
-                <div>
-                  <button className='ui button'>Send</button>
-                  <button onClick={this.handleClearForm}>Clear Form</button>
-                </div>
-            </form>
-          </div> */}
-
           <div className= 'icons'>
             <a href="https://www.facebook.com" class="fa fa-facebook"></a>
             <a href="https://www.github.com/clifton311" class="fa fa-github"></a>

@@ -29,6 +29,7 @@
     "gh-pages": "^2.1.1",
     "particles.js": "^2.0.0",
     "react": "^16.8.6",
+    "react-dev": "0.0.1",
     "react-dom": "^16.8.6",
     "react-hook-form": "^3.18.5",
     "react-particles-js": "^2.7.0",
