@@ -6,7 +6,7 @@ import developer from './photos/develop.jpg'
 class HomePage extends Component {
   render() {
     return (
-      <div>
+      <div id='particles.js'>
         <div className='homepage'>
           <p > 
             Hi! I'm Clifton! <br></br> 
@@ -16,16 +16,16 @@ class HomePage extends Component {
         </div>
 
 
-        <div className='flex-container'>
-          <div className='homepage-flex-item'>
+        <div className='photo-container'>
+          <div className='photo-item'>
             {/* <img src={developer} className='developer'alt="profile_pic" style={{width:"550px", height:"400px"}}></img> */}
           </div>
-          <div className='homepage-flex-item'>
-            {/* <img src={photo} className='airplane'alt="profile_pic" style={{width:"550px", height:"400px"}} ></img> */}
+          <div className='photo-item'>
+              <img src={photo} className='airplane'alt="profile_pic" style={{width:"550px", height:"400px"}} ></img>  
+
+            
           </div>
-
         </div>
-
       </div>
     )
   }

@@ -53,6 +53,7 @@ class Contact extends React.Component {
     return (
         <div>
           <div className="thank">
+            <br></br>
             <h2 >
               Thank for your visiting! 
             </h2>
