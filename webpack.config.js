@@ -2,6 +2,7 @@ const path = require('path');
 const webpack = require('webpack');
 const SRC_DIR = path.join(__dirname, '/react-client/src');
 const DIST_DIR = path.join(__dirname, '/react-client/dist');
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 
 module.exports = {
   entry: `${SRC_DIR}/index.js`,
@@ -39,6 +40,9 @@ module.exports = {
   plugins: [
     new webpack.DefinePlugin({
       'process.env.NODE_ENV': JSON.stringify('production')
-    })
-  ]
+    }),
+  ],
+  optimization: {
+    minimizer: [new UglifyJsPlugin(),],
+  },
 };
